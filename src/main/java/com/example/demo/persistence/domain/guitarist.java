@@ -39,7 +39,7 @@ public class guitarist {
 	@Size(min =1, max = 120) //varchar(20)
 	private String name;
 	
-	@Column(name = "strings")
+	@Column(name = "Strings")
 	@Min(4)
 	@Max(12)
 	private int noOfStrings;
